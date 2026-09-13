@@ -5,3 +5,11 @@ Accept: application/json
 
 ###
  
+### Create student
+POST {{FirstWebApi_HostAddress}}/students
+Content-Type: application/json
+
+{
+    "name": "Utso",
+    "email": "utso@gmail.com"
+}
